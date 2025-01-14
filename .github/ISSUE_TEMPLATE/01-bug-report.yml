@@ -12,44 +12,33 @@ body:
         ---
         
         Thank you for taking the time to file a bug report. To address this bug as fast as possible, we need some information.
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
-    id: what-happened
+    id: description
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: Steps to reproduce the behavior: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
     validations:
       required: true
-  - type: dropdown
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: false
+  - type: input
     id: version
     attributes:
       label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
+      description: What version of B2S Designer are you using?
+      placeholder: v2.1.0
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: textarea
     id: logs
     attributes:
@@ -60,7 +49,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/vpinball/b2s-designer/blob/master/CODE_OF_CONDUCT.md). 
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true

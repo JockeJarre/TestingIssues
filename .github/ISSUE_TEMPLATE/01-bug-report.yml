@@ -1,4 +1,4 @@
-name: 🐞 Bugreport
+name: Bugreport
 description: File a bug report
 body:
   - type: markdown

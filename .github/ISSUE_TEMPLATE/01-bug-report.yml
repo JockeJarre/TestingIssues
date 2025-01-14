@@ -1,10 +1,11 @@
-name: Bug
+name: Bug report
 description: File a bug report
 body:
   - type: markdown
     attributes:
       value: |
         Before opening a bug report, please search for the behaviour in the existing issues. 
+        Please discuss the issue in the community forum on [VPU](https://vpuniverse.com/files/file/2119-b2s-designer) or [VPF](https://www.vpforums.org/index.php?showforum=89) before filing a bug.
         
         ---
         
@@ -14,23 +15,7 @@ body:
     attributes:
       label: Operating system
       description: "Which operating system do you use? Please provide the version as well."
-      placeholder: "macOS Big Sur 11.5.2"
-    validations:
-      required: true  
-  - type: input
-    id: laravel
-    attributes:
-      label: Laravel Version
-      description: "Please provide the full Laravel version of your project."
-      placeholder: "v8.6.1"
-    validations:
-      required: true
-  - type: input
-    id: php
-    attributes:
-      label: PHP Version
-      description: "Please provide the full PHP version that is powering Tinkerwell."
-      placeholder: "PHP 8.0.7, built: Jun  4 2021 01:50:04"
+      placeholder: "Windows 11 24H2"
     validations:
       required: true
   - type: dropdown

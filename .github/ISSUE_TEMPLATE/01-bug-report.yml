@@ -1,11 +1,11 @@
-name: Bugreport
+name: Bug report
 description: File a bug report
 body:
   - type: markdown
     attributes:
       value: |
-        **Before opening a bug report, please search for the behaviour in the existing issues and 
-        discuss the issue in the community forum on [VPU](https://vpuniverse.com/files/file/2119-b2s-designer) or [VPF](https://www.vpforums.org/index.php?showforum=89).**
+        Before opening a bug report, please search for the behaviour in the existing issues. 
+        Please discuss the issue in the community forum on [VPU](https://vpuniverse.com/files/file/2119-b2s-designer) or [VPF](https://www.vpforums.org/index.php?showforum=89) before filing a bug.
         
         ---
         

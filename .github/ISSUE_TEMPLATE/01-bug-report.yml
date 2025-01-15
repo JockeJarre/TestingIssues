@@ -12,10 +12,10 @@ body:
         ---
         
         Thank you for taking the time to file a bug report. To address this bug as fast as possible, we need some information.
-  - type: input
-    id: contact
+  - type: textarea
+    id: describe
     attributes:
-      label: Contact Details
+      label: Describe the bug
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
     validations:

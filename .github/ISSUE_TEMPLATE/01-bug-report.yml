@@ -16,20 +16,13 @@ body:
     attributes:
       label: Describe the bug
       description: A clear and concise description of what the bug is.
-      value: |
-        ###Steps to reproduce
-        1.
-        2.
-        3.
-
-        ### ??Current Behaviour:
-        - x
-    
-        ### ?Expected Behaviour:
-        - x
-        
-        ### ??Evidences Screenshots/Video/pbix:
-        - x    validations:
+      placeholder: |
+        Steps to reproduce the behavior:
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+        ?? Screenshots/Video
       required: true
   - type: textarea
     id: expected

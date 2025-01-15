@@ -32,7 +32,7 @@ body:
     attributes:
       label: Version
       description: What version of B2S Designer are you using?
-      placeholder: 2.1.0
+      placeholder: v2.1.0
     validations:
       required: true
   - type: textarea

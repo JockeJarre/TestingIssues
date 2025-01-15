@@ -14,8 +14,8 @@ body:
   - type: textarea
     id: steps
     attributes:
-      label: Describe the bug
-      description: A clear and concise description of what the bug is. You can paste screenshots in the fields.
+      label: Describe the bug 🐞
+      description: A clear and concise description of what the bug is. You can paste screenshots 📸 in the fields.
       placeholder: |
         Steps to reproduce the behavior:
         1. Go to ...
@@ -26,7 +26,7 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: Expected behavior
+      label: Expected behavior ✅
       description: A clear and concise description of what you expected to happen.
     validations:
       required: false

@@ -9,7 +9,7 @@ body:
         ### and discuss it in the community forums on [vpuniverse](https://vpuniverse.com/files/file/2119-b2s-designer) or [vpforums](https://www.vpforums.org/index.php?showforum=89).
         
         ---
-        #### Thank you for taking the time to add feature request. To address this as fast as possible, we need some information:
+        ### Thank you for taking the time to add feature request. To address this as fast as possible, we need some information:
   - type: textarea
     id: steps
     attributes:

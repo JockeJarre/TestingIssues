@@ -1,6 +1,6 @@
 name: Feature request
 description: File a bug report.
-title: "A clear and concise title"
+title: ""
 labels: ["enhancement"]
 body:
   - type: markdown

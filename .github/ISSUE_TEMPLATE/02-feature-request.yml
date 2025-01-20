@@ -1,6 +1,5 @@
 name: Feature request
 description: File a bug report.
-title: ""
 labels: ["enhancement"]
 body:
   - type: markdown

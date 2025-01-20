@@ -5,14 +5,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Thank you for taking the time to file a bug report. To address this bug as fast as possible, we need some information.
-        ### But before opening a bug report, please search for the behaviour in the existing issues and discuss it in the community forums on [vpuniverse](https://vpuniverse.com/files/file/2119-b2s-designer) or [vpforums](https://www.vpforums.org/index.php?showforum=89).
+        ### Thank you for taking the time to submit a bug report. To help us resolve this bug as quickly as possible, we need some information.
+        ### However, before you open a bug report, please search for the behaviour in the existing issues and discuss it in the community forums at [vpuniverse](https://vpuniverse.com/files/file/2119-b2s-designer) or [vpforums](https://www.vpforums.org/index.php?showforum=89).
         ---
   - type: textarea
     id: steps
     attributes:
       label: Describe the bug 🐞
-      description: A clear and concise description of what the bug is. You can paste screenshots 📸 in the fields.
+      description: A clear and concise description of what the bug is. You can paste screenshots 📸 into the fields.
       placeholder: |
         Steps to reproduce the behavior:
         1. Go to ...

@@ -5,15 +5,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Thank you for taking the time to add feature request. To address this as fast as possible, we need some information.
-        ### But before opening a feature request, please search for the behaviour in the existing issues
-        ### and discuss it in the community forums on [vpuniverse](https://vpuniverse.com/files/file/2119-b2s-designer) or [vpforums](https://www.vpforums.org/index.php?showforum=89).
+        ### Thank you for taking the time to submit a feature request. In order to process it as quickly as possible, we need the following information.
+        ### However, before you open a feature request, please search for the behaviour in the existing issues and discuss it in the community forums at [vpuniverse](https://vpuniverse.com/files/file/2119-b2s-designer) or [vpforums](https://www.vpforums.org/index.php?showforum=89).
         ---
   - type: textarea
     id: steps
     attributes:
       label: Is your feature request related to a problem? Please describe.
-      description: A clear and concise description of the problem. You can paste screenshots 📸 in the fields.
+      description: A clear and concise description of the problem. You can paste screenshots 📸 into the fields.
       placeholder: |
         Steps to reproduce the your problem:
         1. Go to ...

@@ -12,14 +12,14 @@ body:
     id: version
     attributes:
       label: Version
-      description: What version of B2S Server are you using? Please confirm the same behaviour in the latest release!
+      description: What version of B2S Server are you using?
       placeholder: 2.1.2
     validations:
       required: true
   - type: checkboxes
     id: latest
     attributes:
-      label: Tested with latest release from
+      label: Please confirm the same behaviour in the latest release
       description: https://github.com/vpinball/b2s-backglass/releases
       options:
         - label: I have tested in latest release

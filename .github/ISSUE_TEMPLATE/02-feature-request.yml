@@ -19,7 +19,8 @@ body:
   - type: checkboxes
     id: latest
     attributes:
-      label: Tested with latest release from https://github.com/vpinball/b2s-backglass/releases
+      label: Tested with latest release from
+      description: https://github.com/vpinball/b2s-backglass/releases
       options:
         - label: I have tested in latest release
           required: true

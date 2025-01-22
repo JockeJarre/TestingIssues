@@ -32,7 +32,7 @@ body:
       placeholder: VPX 10.8.0-2050-186f2fc  /  VPM 3.6.0-1209-7915412
       value: VPX 10.8.0-4711-replace  /  VPM 3.6.0-8192-replace
     validations:
-      required: true
+      required: false
   - type: textarea
     id: steps
     attributes:

@@ -22,7 +22,7 @@ body:
       label: Please confirm the same behaviour in the latest release
       description: https://github.com/vpinball/b2s-backglass/releases
       options:
-        - label: I have tested in latest release
+        - label: I have tested with latest release
           required: true
   - type: textarea
     id: steps

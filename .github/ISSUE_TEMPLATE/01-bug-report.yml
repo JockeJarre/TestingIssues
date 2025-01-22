@@ -12,7 +12,7 @@ body:
     id: version
     attributes:
       label: Version
-      description: What version of B2S Server are you using? Please confirm the same behaviour in the latest release!
+      description: What version of B2S Server are you using?
       placeholder: 2.1.2
     validations:
       required: true
@@ -24,6 +24,14 @@ body:
       options:
         - label: I have tested with latest release
           required: true
+  - type: input
+    id: vpxversion
+    attributes:
+      label: Can the bug depend on a certain VPX or VPM version?
+      description: What version of Visual Pinball and PinMAME are you using?
+      placeholder: VPX 10.7.4 or 10.8.0-2050-186f2fc VPM 3.5 or 3.6.0-1209-7915412
+    validations:
+      required: false
   - type: textarea
     id: steps
     attributes:

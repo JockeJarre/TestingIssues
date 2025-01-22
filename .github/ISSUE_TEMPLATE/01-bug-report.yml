@@ -30,7 +30,6 @@ body:
       label: Can the bug depend on a certain VPX or VPM version?
       description: What version of Visual Pinball and PinMAME are you using?
       placeholder: VPX 10.8.0-2050-186f2fc  /  VPM 3.6.0-1209-7915412
-      value: VPX 10.8.0-2050-186f2fc  /  VPM 3.6.0-1209-7915412
     validations:
       required: false
   - type: textarea

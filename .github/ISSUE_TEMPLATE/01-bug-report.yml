@@ -19,7 +19,7 @@ body:
   - type: checkboxes
     id: latest
     attributes:
-      label: Please confirm the same behaviour in the latest release
+      label: Please confirm the same behaviour in the [latest release](https://vpuniverse.com/forums/forum/88-b2s-new-releases)
       description: https://github.com/vpinball/b2s-backglass/releases
       options:
         - label: I have tested with latest release

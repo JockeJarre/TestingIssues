@@ -11,19 +11,11 @@ body:
   - type: input
     id: version
     attributes:
-      label: Version
-      description: What version of B2S Server are you using?
+      label: What version of B2S Server are you using?
+      description: Please confirm the same behaviour in the latest release from https://github.com/vpinball/b2s-backglass/releases
       placeholder: 2.1.2
     validations:
       required: true
-  - type: checkboxes
-    id: latest
-    attributes:
-      label: Please confirm the same behaviour in the latest release
-      description: https://github.com/vpinball/b2s-backglass/releases
-      options:
-        - label: I have tested with latest release
-          required: true
   - type: input
     id: vpxversion
     attributes:
@@ -41,7 +33,8 @@ body:
         Steps to reproduce the behavior:
         1. Go to ...
         2. Click on ...
-        3. See error screenshot
+        3. URL to discussions in the community forums at vpuniverse or vpforums
+        4. Add error screenshot
     validations:
       required: true
   - type: textarea
@@ -57,3 +50,5 @@ body:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+    validations:
+      required: false
